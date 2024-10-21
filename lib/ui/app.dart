@@ -1,5 +1,5 @@
 import 'package:beatconnect_app/ui/intro/Intro.dart';
-import 'package:beatconnect_app/ui/root/root.dart';
+import 'package:beatconnect_app/ui/root/root_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -13,10 +13,10 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Beactconnect App',
       theme: ThemeData.dark(),
-      initialRoute: '/main',
+      initialRoute: '/',
       routes: {
         "/": (context) => Intro(),
-        "/main": (context) => Root(),
+        "/root": (context) => RootView(),
       },
     );
   }
