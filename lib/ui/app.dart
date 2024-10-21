@@ -1,4 +1,4 @@
-import 'package:beatconnect_app/ui/intro/Intro.dart';
+import 'package:beatconnect_app/ui/intro/intro_view.dart';
 import 'package:beatconnect_app/ui/root/root_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,7 +15,7 @@ class App extends StatelessWidget {
       theme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
-        "/": (context) => Intro(),
+        "/": (context) => IntroView(),
         "/root": (context) => RootView(),
       },
     );
