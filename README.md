@@ -4,13 +4,15 @@ Nueva version de la aplicacion Beatconnect, plataforma de redes sociales musical
 
 ![logo](https://github.com/user-attachments/assets/33d03376-f4b0-4655-a650-2d0aed790f76)
 
-## ARquitectura del proyecto
+## Arquitectura del proyecto: ### `Modelo-Vista-Controlador (MVC)`
+
+El proyecto está organizado siguiendo un modelo arquitectónico modular inspirado en el patrón Modelo-Vista-Controlador (MVC), pero adaptado a la naturaleza declarativa de Flutter.
 
 ```plaintext
 lib/
 ├── controllers/
-├── main.dart
-├── service/
+├── models/
+├── services/
 │   ├── api/
 │   └── firebase/
 ├── ui/
@@ -22,7 +24,8 @@ lib/
 │   │   └── root_view.dart
 │   └── views/
 │       └── Feed_view.dart
-└── widgets/
+├── widgets/
+└── main.dart
 ```
 
 ## Empezando
