@@ -6,6 +6,7 @@ Nueva version de la aplicacion Beatconnect, plataforma de redes sociales musical
 
 ## ARquitectura del proyecto
 
+```plaintext
 lib/
 ├── controllers/
 ├── main.dart
@@ -22,6 +23,7 @@ lib/
 │   └── views/
 │       └── Feed_view.dart
 └── widgets/
+```
 
 ## Empezando
 
